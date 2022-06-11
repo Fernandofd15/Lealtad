@@ -73,6 +73,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
 	}
+
+	#integrantes {
+		color: blue;
+		font: 13px/20px Arial, sans-serif;
+	}
 	</style>
 </head>
 <body>
@@ -84,9 +89,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<p>Prototipo Inicial del proyecto Lealtad</p>
 		<p>La presente aplicación pretende automatizar una tarjeta de cliente frecuente, que permita abonar puntos a cada cliente que visita una cafeteria</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>
+		
+	<p><b>Integrantes: </b></p>
+		<p id="integrantes">
 			karina <br>
 			Jacob <br>
 			Pablo <br>
@@ -95,10 +100,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			Jose <br>
 		</p>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="userguide3/">User Guide</a>.</p>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
