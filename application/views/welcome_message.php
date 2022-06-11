@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	#integrantes {
-		color: blue;
+		color: red;
 		font: sans-serif;
 	}
 	</style>
