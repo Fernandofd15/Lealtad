@@ -86,6 +86,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>La presente aplicación pretende automatizar una tarjeta de cliente frecuente, que permita abonar puntos a cada cliente que visita una cafeteria</p>
 		<code>application/views/welcome_message.php</code>
 
+		<p>
+			karina <br>
+			Jacob <br>
+			Pablo <br>
+			Jesus <br>
+			Fernando <br>
+			Jose <br>
+		</p>
+
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
 
